@@ -3,7 +3,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    background-color: #888;
+    background-color: #999;
 }
 
 .nav-bar {
@@ -34,6 +34,8 @@
     line-height: 36px;
     text-align: center;
     font-family: "Varela Round", sans-serif;
+    margin-top: 25px;
+    background-color: #fff;
 }
 
 .container-content {
@@ -80,4 +82,77 @@
     color: #fff;
     text-align: center;
     font-size: 30px;
+}
+
+.members {
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 1000px;
+    margin-left: 15px;
+    background-color: #333;
+    height: 550px;
+}
+
+.members p {
+    text-align: center;
+    line-height: 1.4em;
+    margin-top: 140px;
+    font-size: 20px;
+    background-color: #333;
+}
+
+.members h1 {
+    text-align: center;
+    font-size: 35px;
+    background-color: #333;
+    margin-top: 50px;
+}
+
+.Smashing-newsletter {
+    border: 1px solid black;
+    background-color: #333;
+    height: 600px;
+    width: 90%;
+    margin: 0px 0px 40px 60px;
+    border-radius: 15px;
+}
+
+.main-part {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.main-part img {
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 500px;
+    background-color: #333;
+}
+
+.main-part p {
+    background-color: #333;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.main-part h1 {
+    background-color: #333;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+}
+
+.footer-flex {
+    margin-top: 40px;
+    font-size: small;
+}
+
+.see-all {
+    margin: 70px 10px;
+    font-size: 1em;
+    text-align: center;
 }
