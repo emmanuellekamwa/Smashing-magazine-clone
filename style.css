@@ -242,20 +242,18 @@ h3 {
 .design-system-content h1 {
     display: block;
     font-size: 2em;
-    margin-inline-start: 60px;
-    margin-inline-end: 0px;
     font-weight: bold;
     padding-top: 50px;
+    margin-left: 60px;
 }
 
 .design-system-content p {
     display: block;
     font-size: medium;
-    margin-inline-start: 60px;
-    margin-inline-end: 0px;
     font-weight: bold;
     line-height: 2em;
     margin-top: 30px;
+    margin-left: 60px;
 }
 
 footer {
