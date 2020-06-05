@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
     border: 0;
-    box-sizing: border-box;
-    background-color: #999;
+    box-sizing: border-box;  
+}
+
+main {
+  background-color: #999;
 }
 
 .nav-bar {
@@ -12,6 +15,7 @@
     display: flex;
     justify-content: space-around;
     flex-flow: row;
+    background-color: #999;
 }
 
 .nav-bar ul li {
@@ -41,6 +45,7 @@
 .container-content {
     display: flex;
     flex-flow: column;
+
 }
 
 .article-grid {
@@ -155,4 +160,81 @@
     margin: 70px 10px;
     font-size: 1em;
     text-align: center;
+}
+
+.june-2020 {
+  width: 100%;
+  height: 700px;
+  background-color: #333;
+  text-align: center;
+}
+
+.date-title {
+  font-size: medium;
+  color: #fff;
+  padding-top: 30px;
+}
+
+/* .date-title p{
+
+} */
+
+.meet-content {
+  color: #fff;
+}
+
+.meet-content img{
+  width: 400px;
+  height: 800px;
+  margin-top: -200px;
+  margin-right: 100px;
+}
+.meet-content h1 {
+  font-size: 3em;
+  padding: 30px 5px;
+}
+
+.meet-content p {
+  font-size: large;
+}
+
+.meet-content button {
+  height: 40px;
+  width: 200px;
+  background-color: gray;
+  
+}
+
+
+
+
+footer{
+  background-color: #333;
+}
+
+.footer-title {
+  padding-top: 60px;
+  text-align: center;
+  color: beige;
+  padding-bottom: 30px;
+}
+
+.footer-link ul > li  {
+  display: inline;
+  color: beige;
+  font-size: x-large;
+  line-height: 2em;
+}
+
+footer a{
+  color: beige;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  color: wheat;
+  padding-bottom: 30px;
+
 }
