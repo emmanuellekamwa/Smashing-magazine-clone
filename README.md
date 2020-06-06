@@ -1,6 +1,6 @@
 # Smashing-magazine-clone
 
-> visual hierachy, typography and UXX design
+> visual hierachy, typography and UX design
 
 ![screenshot](./images/magazine.png)
 
