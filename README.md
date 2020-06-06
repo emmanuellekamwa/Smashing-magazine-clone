@@ -13,7 +13,7 @@ This project is to demonstrate our level of understanding and to start training 
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/emmanuellekamwa/Smashing-magazine-clone/tree/feature-branch/)
+[Live Demo Link](https://rawcdn.githack.com/emmanuellekamwa/Smashing-magazine-clone/879eeff888d823e5b14b9f7a4f627ac4e8617b25/index.html)
 
 ## Authors
 

@@ -61,7 +61,6 @@ main {
 }
 
 .column1 {
-  /* text-align: center; */
   align-items: flex-start;
   padding: 10px 40px;
 }
@@ -88,6 +87,10 @@ main {
   font-size: 30px;
 }
 
+.article h2 {
+  padding-bottom: 40px;
+}
+
 .members {
   border: 1px solid #333;
   border-radius: 16px;
@@ -105,7 +108,7 @@ main {
   background-color: #333;
 }
 
-.members h1 {
+.members h2 {
   text-align: center;
   font-size: 35px;
   background-color: #333;
@@ -172,10 +175,6 @@ main {
   color: #fff;
   padding-top: 30px;
 }
-
-/* .date-title p{
-
-} */
 
 .meet-content {
   color: #fff;
@@ -262,6 +261,10 @@ footer a {
   margin-top: 30px;
   margin-left: 60px;
 }
+.see-all-2 {
+  padding: 30px;
+  text-align: center;
+}
 
 footer {
   background-color: #333;
@@ -275,7 +278,7 @@ footer {
   text-align: center;
   color: beige;
   padding-bottom: 30px;
-  font-size: small;
+  font-size: x-large;
   background-color: #333;
 }
 
