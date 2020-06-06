@@ -1,306 +1,307 @@
 * {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 main {
-  background-color: #999;
+    background-color: #999;
 }
 
 .nav-bar {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row;
-  background-color: #999;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    background-color: #999;
 }
 
 .nav-bar ul li {
-  float: left;
-  list-style-type: none;
-  padding: 30px 0;
-  width: 168px;
-  height: 134px;
-  background-color: #999;
-  color: #fff;
-  text-align: center;
-  font-size: 25px;
+    float: left;
+    list-style-type: none;
+    padding: 30px 0;
+    width: 168px;
+    height: 134px;
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
 }
 
 .content {
-  position: relative;
+    position: relative;
 }
 
 .heading {
-  line-height: 36px;
-  text-align: center;
-  font-family: "Varela Round", sans-serif;
-  margin-top: 25px;
-  background-color: #fff;
+    line-height: 36px;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    margin-top: 25px;
+    background-color: #fff;
 }
 
 .container-content {
-  display: flex;
-  flex-flow: column;
+    display: flex;
+    flex-flow: column;
 }
 
 .article-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .article-flex {
-  display: flex;
-  flex-direction: row;
-  margin: 20px auto;
-  padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    padding: 10px;
 }
 
 .column1 {
-  align-items: flex-start;
-  padding: 10px 40px;
+    align-items: flex-start;
+    padding: 10px 40px;
 }
 
 .column1 h2 {
-  font-size: 1.6em;
-  padding-bottom: 20px;
+    font-size: 1.6em;
+    padding-bottom: 20px;
 }
 
 .column1 p {
-  line-height: 1.5em;
-  font-size: 1.2em;
-  padding: 10px auto;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    padding: 10px auto;
 }
 
 .article {
-  background-color: #999;
-  border: 1px solid black;
-  align-items: center;
-  display: grid;
-  padding: 170px;
-  color: #fff;
-  text-align: center;
-  font-size: 30px;
+    background-color: #999;
+    border: 1px solid black;
+    align-items: center;
+    display: grid;
+    padding: 170px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
 }
 
 .article h2 {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .members {
-  border: 1px solid #333;
-  border-radius: 16px;
-  width: 1000px;
-  margin-left: 15px;
-  background-color: #333;
-  height: 550px;
+    border: 1px solid #333;
+    border-radius: 16px;
+    width: 1000px;
+    margin-left: 15px;
+    background-color: #333;
+    height: 550px;
 }
 
 .members p {
-  text-align: center;
-  line-height: 1.4em;
-  margin-top: 140px;
-  font-size: 20px;
-  background-color: #333;
+    text-align: center;
+    line-height: 1.4em;
+    margin-top: 140px;
+    font-size: 20px;
+    background-color: #333;
 }
 
-.members h2 {
-  text-align: center;
-  font-size: 35px;
-  background-color: #333;
-  margin-top: 50px;
+.members h1 {
+    text-align: center;
+    font-size: 35px;
+    background-color: #333;
+    margin-top: 50px;
 }
 
 .Smashing-newsletter {
-  background-color: #333;
-  height: 600px;
-  width: 90%;
-  margin: 0 0 40px 60px;
-  border-radius: 15px;
+    background-color: #333;
+    height: 600px;
+    width: 90%;
+    margin: 0 0 40px 60px;
+    border-radius: 15px;
 }
 
 .main-part {
-  display: flex;
-  flex-flow: column;
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-  border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
 }
 
 .main-part img {
-  height: 300px;
-  width: 200px;
-  position: relative;
-  left: 500px;
-  background-color: #333;
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 500px;
+    background-color: #333;
 }
 
 .main-part p {
-  background-color: #333;
-  padding-bottom: 20px;
-  font-size: 1.5em;
+    background-color: #333;
+    padding-bottom: 20px;
+    font-size: 1.5em;
 }
 
 .main-part h1 {
-  background-color: #333;
-  margin-bottom: 25px;
-  font-size: 2.5em;
+    background-color: #333;
+    margin-bottom: 25px;
+    font-size: 2.5em;
 }
 
 .footer-flex {
-  margin-top: 40px;
-  font-size: small;
+    margin-top: 40px;
+    font-size: small;
 }
 
 .see-all {
-  margin: 70px 10px;
-  font-size: 1em;
-  text-align: center;
+    margin: 70px 10px;
+    font-size: 1em;
+    text-align: center;
 }
 
 .june-2020 {
-  width: 100%;
-  height: 700px;
-  background-color: #333;
-  text-align: center;
+    width: 100%;
+    height: 700px;
+    background-color: #333;
+    text-align: center;
 }
 
 .date-title {
-  font-size: medium;
-  color: #fff;
-  padding-top: 30px;
+    font-size: medium;
+    color: #fff;
+    padding-top: 30px;
 }
 
 .meet-content {
-  color: #fff;
+    color: #fff;
 }
 
 .meet-content img {
-  width: 400px;
-  height: 800px;
-  margin-top: -200px;
-  margin-right: 100px;
+    width: 400px;
+    height: 800px;
+    margin-top: -200px;
+    margin-right: 100px;
 }
 
 .meet-content h1 {
-  font-size: 3em;
-  padding: 30px 5px;
+    font-size: 3em;
+    padding: 30px 5px;
 }
 
 .meet-content p {
-  font-size: large;
+    font-size: large;
 }
 
 .meet-content button {
-  height: 40px;
-  width: 200px;
-  background-color: gray;
+    height: 40px;
+    width: 200px;
+    background-color: gray;
 }
 
 .community-links {
-  display: inline-block;
-  margin-top: 50px;
-  font-size: 1.3em;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 1.3em;
 }
 
 .community-links p,
-h3 {
-  margin: 10px 0 10px 20px;
+h2 {
+    margin: 10px 0 10px 20px;
 }
 
 .community-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 0;
-  grid-row-gap: 6rem;
-  margin: 60px 0 80px 0;
-  font-size: 1.2em;
-  text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 6rem;
+    margin: 60px 0 80px 0;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 .link {
-  text-align: center;
-  margin-bottom: 70px;
+    text-align: center;
+    margin-bottom: 70px;
 }
 
 footer a {
-  color: beige;
-  text-decoration: none;
-  background-color: #333;
+    color: beige;
+    text-decoration: none;
+    background-color: #333;
 }
 
 .link a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .design-system-content {
-  background-color: #333;
-  color: #fff;
-  height: 250px;
+    background-color: #333;
+    color: #fff;
+    height: 250px;
 }
 
-.design-system-content h1 {
-  display: block;
-  font-size: 2em;
-  font-weight: bold;
-  padding-top: 50px;
-  margin-left: 60px;
+.design-system-content h2 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-left: 60px;
 }
 
 .design-system-content p {
-  display: block;
-  font-size: medium;
-  font-weight: bold;
-  line-height: 2em;
-  margin-top: 30px;
-  margin-left: 60px;
+    display: block;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 2em;
+    margin-top: 30px;
+    margin-left: 60px;
 }
 
 .see-all-2 {
-  padding: 30px;
-  text-align: center;
+    padding: 30px;
+    text-align: center;
 }
 
 footer {
-  background-color: #333;
-  width: 100%;
-  height: 700px;
-  margin: 0 0 0 0;
+    background-color: #333;
+    width: 100%;
+    height: 700px;
+    margin: 0 0 0 0;
+    text-align: center;
 }
 
 .footer-title {
-  padding-top: 90px;
-  text-align: center;
-  color: beige;
-  padding-bottom: 30px;
-  font-size: x-large;
-  background-color: #333;
+    padding-top: 90px;
+    text-align: center;
+    color: beige;
+    padding-bottom: 30px;
+    font-size: x-large;
+    background-color: #333;
 }
 
 .footer-link {
-  padding-top: 150px;
-  background-color: #333;
+    padding-top: 150px;
+    background-color: #333;
 }
 
 .footer-link ul > li {
-  display: inline;
-  color: beige;
-  font-size: x-large;
-  line-height: 2em;
-  background-color: #333;
-  margin-left: 20px;
+    display: inline;
+    color: beige;
+    font-size: x-large;
+    line-height: 2em;
+    background-color: #333;
+    margin-right: 20px;
 }
 
 .footer-bottom {
-  margin-top: 40px;
-  text-align: center;
-  color: wheat;
-  padding-top: 100px;
-  background-color: #333;
+    margin-top: 40px;
+    text-align: center;
+    color: wheat;
+    padding-top: 100px;
+    background-color: #333;
 }
